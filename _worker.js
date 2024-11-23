@@ -5102,7 +5102,6 @@ async function getConfigAddresses(hostName, cleanIPs, enableIPv6) {
     hostName,
     "www.speedtest.net",
     "visa.cn",
-    
     ...resolved.ipv4,
     ...defaultIPv6,
     ...cleanIPs ? cleanIPs.split(",") : []
